@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+  background: #111;
+  color: white;
+  font-family: sans-serif;
+}
+#gameCanvas {
+  border: 2px solid white;
+  image-rendering: pixelated;
+}
+#overlay {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  font-size: 2rem;
+  color: red;
+  display: none;
+}
