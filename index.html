@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dungeon Explorer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Dungeon Explorer</h1>
+  <canvas id="gameCanvas" width="640" height="640"></canvas>
+  <p>
+    ❤️ Health: <span id="health">3</span> |
+    🔑 Keys: <span id="keys">0</span> |
+    💰 Score: <span id="score">0</span>
+  </p>
+  <button onclick="saveGame()">💾 Save</button>
+  <button onclick="loadGame()">📂 Load</button>
+  <div id="overlay"></div>
+  <script src="game.js"></script>
+</body>
+</html>
